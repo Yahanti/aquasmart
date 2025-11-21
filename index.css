@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Esconde a barra de rolagem (Opcional, para visual de app) */
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+  }
+  .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+  }
+}
